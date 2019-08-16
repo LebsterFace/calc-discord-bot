@@ -4,7 +4,7 @@ const Discord=require("discord.js"),
 client.on("ready", () => {
   console.log("CalcBot Online!");
 });
-const cl = x=>new BigEval.exec(x);
+const cl = x=>new BigEval().exec(x);
 client.on("message", message => {
   if (message.author.bot) return;
   message.channel.send(`\`\`\`${cl(message.content)}\`\`\``);
