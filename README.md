@@ -1,2 +1,5 @@
-# calc-discord-bot
-## A simple calc bot for Discord.
+# Discord Calculator Bot
+## A simple calculator bot for Discord
+Built with Discord.JS
+
+This was my second git repo and my third node project!
